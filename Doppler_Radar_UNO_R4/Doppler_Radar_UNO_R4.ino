@@ -3,7 +3,7 @@
 
   Adaptation by Manno Bult based on source below
   Adaptation mainly involves the running on the UNO R4 and using its LED matrix for movement indication
-  Do read the link below of issue 57 below about sensitivity (or experienced lack thereof)
+  Do read the link below regarging issue 57 about sensitivity (or experienced lack thereof)
 
   see also: https://github.com/jdesbonnet/RCWL-0516
   and: https://github.com/jdesbonnet/RCWL-0516/issues/57 (mainly about the sensitivity of the sensor)
