@@ -1,5 +1,7 @@
 # Doppler Radar Example
 
+Detects movement but more precise (read links in project though)
+
 Based off of [https://RandomNerdTutorials.com/arduino-rcwl-0516/](https://RandomNerdTutorials.com/arduino-rcwl-0516/)
 
 Added to the code from project above: UNO R4 LED matrix code to indicate sensed movement
