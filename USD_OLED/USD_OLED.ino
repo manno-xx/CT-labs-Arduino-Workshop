@@ -85,9 +85,9 @@ void loop()
 
   DisplayNumber(smoothedDistance);
   
-  // Serial.print(distance);
-  // Serial.print(" - ");
-  // Serial.println(smoothedDistance);
+  //Serial.print(distance);
+  //Serial.print(" - ");
+  //Serial.println(smoothedDistance);
 
   delay(100);
 }

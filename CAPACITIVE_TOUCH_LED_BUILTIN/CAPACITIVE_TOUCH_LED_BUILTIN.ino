@@ -6,15 +6,16 @@ void setup() {
   Serial.begin(9600);
 
   pinMode(CAP_PIN, INPUT);
-  pinMode(LED_BUILTIN, OUTPUT);
+
+  digitalWrite(CAP_PIN, HIGH); // Activation of internal pull-up resistor
 
   digitalWrite(LED_BUILTIN, LOW);
 }
 
-void loop() {
+void loopx() {
   // put your main code here, to run repeatedly:
   int capValue = digitalRead(CAP_PIN);
-
+  
   digitalWrite(LED_BUILTIN, capValue);
 
   Serial.println(capValue);
