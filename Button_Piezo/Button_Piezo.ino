@@ -12,8 +12,6 @@ void setup () {
   digitalWrite(button, HIGH); // Activation of internal pull-up resistor
 
   pinMode(piezoPin, OUTPUT);
-
-  Serial.begin(9600); // Initialization of the serial monitor
 }
   
 void loop () {
